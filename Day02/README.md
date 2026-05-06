@@ -28,4 +28,23 @@ Sources - (Saas,Object store,Data warehouse,Third-party)
 to
 BigQuery Data Transfer Service
 
+- Managed and Serverless
+- No-code solution
+
 ## Big Lake
+One place to manage and analyze all your data, no matter where it is stored.
+
+Normally in Google Cloud:
+
+Data in BigQuery → structured, fast analytics
+Data in Google Cloud Storage → raw files (CSV, JSON, Parquet)
+
+👉 Problem: These are separate systems
+
+BigLake connects both worlds
+
+So you can:
+
+- Query data in Cloud Storage
+- Use BigQuery SQL
+- Apply security in one place
