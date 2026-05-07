@@ -48,3 +48,32 @@ So you can:
 - Query data in Cloud Storage
 - Use BigQuery SQL
 - Apply security in one place
+
+### Task 1. Create a connection resource
+
+To create a connection, switch to Explorer tab and click + Add data. Then use the search bar for data sources to search for Vertex AI. Click on the result for Vertex AI.
+
+In the Access external data in place, select BigQuery Federation.
+
+In the Connection type list, select Vertex AI remote models, remote functions and Lakehouse and Spanner (Cloud Resource).
+
+In the Connection ID field, type my-connection.
+
+For Location type, choose Multi-region and select US (multiple regions in United States) from dropdown.
+
+Click Create connection.
+
+![alt text](image.png)
+
+### Task 2. Set up access to a Cloud Storage data lake
+
+![alt text](image-1.png)
+
+### Task 3. Create a Lakehouse table
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+
+
