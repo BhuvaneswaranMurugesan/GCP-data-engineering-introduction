@@ -82,4 +82,10 @@ GROUP BY 1
 
 IAM Permissions:
 
+![alt text](image-9.png)
 
+6. Execute the workflow
+
+![alt text](image-10.png)
+
+![alt text](image-11.png)
