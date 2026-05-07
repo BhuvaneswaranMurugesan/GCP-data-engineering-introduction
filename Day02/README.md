@@ -75,5 +75,32 @@ Click Create connection.
 
 ![alt text](image-3.png)
 
+## Update external table to Lakehouse table
 
+1.Open a new Cloud Shell window and run the following command to generate a new external table definition that specifies the connection to use:
 
+```shell
+export PROJECT_ID=$(gcloud config get-value project)
+bq mkdef \
+--autodetect \
+--connection_id=$PROJECT_ID.US.my-connection \
+--source_format=CSV \
+"gs://$PROJECT_ID/invoice.csv" > /tmp/tabledef.json
+```
+2.Verify your table definition has been created:
+
+```shell
+cat /tmp/tabledef.json
+```
+
+3.Get the schema from your table:
+
+```shell
+bq show --schema --format=prettyjson  demo_dataset.external_table > /tmp/schema
+```
+
+4.Update the table using the new external table definition:
+
+```shell
+bq update --external_table_definition=/tmp/tabledef.json --schema=/tmp/schema demo_dataset.external_table
+```
