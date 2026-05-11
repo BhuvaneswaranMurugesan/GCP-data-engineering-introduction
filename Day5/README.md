@@ -39,4 +39,18 @@ passenger_count:integer -t taxirides.realtime
 ![alt text](image.png)
 
 
+Task 2. Copy required lab artifacts
+
+Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.
+
+A Cloud Storage bucket was created for you during lab start up.
+
+In Cloud Shell (Cloud Shell icon), run the following commands to move files needed for the Dataflow job.
+
+```shell
+gcloud storage cp gs://cloud-training/bdml/taxisrcdata/schema.json  gs://qwiklabs-gcp-03-ad19d22ff563-bucket/tmp/schema.json
+gcloud storage cp gs://cloud-training/bdml/taxisrcdata/transform.js  gs://qwiklabs-gcp-03-ad19d22ff563-bucket/tmp/transform.js
+gcloud storage cp gs://cloud-training/bdml/taxisrcdata/rt_taxidata.csv  gs://qwiklabs-gcp-03-ad19d22ff563-bucket/tmp/rt_taxidata.csv
+```
+
 
