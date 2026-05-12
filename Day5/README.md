@@ -53,4 +53,28 @@ gcloud storage cp gs://cloud-training/bdml/taxisrcdata/transform.js  gs://qwikla
 gcloud storage cp gs://cloud-training/bdml/taxisrcdata/rt_taxidata.csv  gs://qwiklabs-gcp-03-ad19d22ff563-bucket/tmp/rt_taxidata.csv
 ```
 
+Task 3. Set up a Dataflow Pipeline
 
+Restart the connection to the Dataflow API.
+In the Cloud Shell, run the following commands to ensure that the Dataflow API is enabled cleanly in your project.
+
+```shell
+gcloud services disable dataflow.googleapis.com
+gcloud services enable dataflow.googleapis.com
+```
+
+Create a new streaming pipeline:
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+Browse as it is  mentioned in lab doc,
+
+![alt text](image-3.png)
+
+![alt text](image-5.png)
+
+![alt text](image-4.png)
+
+Run Job.
