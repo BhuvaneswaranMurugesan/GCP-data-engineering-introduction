@@ -78,9 +78,3 @@ Browse as it is  mentioned in lab doc,
 ![alt text](image-4.png)
 
 Run Job.
-
-
-CHeck on big query, from the result open in looker or data studio:
-
-![alt text](image-6.png)
-
