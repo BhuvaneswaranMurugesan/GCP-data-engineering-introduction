@@ -135,5 +135,25 @@ exports.loadBigQueryFromAvro = async (event, context) => {
 
 In nano press (Ctrl+x) , and then press (Y), and then press Enter to save the file.
 
+![alt text](image-2.png)
 
+![alt text](image-3.png)
+
+## Task 4. Create a Cloud Storage bucket and BigQuery dataset
+
+In this task, you set up the background infrastructure to store assets used to invoke the Cloud Run function (a Cloud Storage bucket), and then store the output in BigQuery when it completes.
+
+In Cloud Shell, run the following command to create a new Cloud Storage bucket as a staging location:
+
+```shell
+gcloud storage buckets create gs://$PROJECT_ID --location=$REGION
+```
+
+Run the following command to create a BQ dataset to store the data:
+
+```shell
+bq mk -d  loadavro
+```
+
+![alt text](image-4.png)
 
