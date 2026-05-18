@@ -248,3 +248,5 @@ Messages in the log appear similar to the following:
 scrolled,
 
 ![alt text](image-15.png)
+
+GCP Course Completed here.
