@@ -73,5 +73,67 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 
 ![alt text](image-1.png)
 
+## Task 3. Create the function
+
+In this task, you create a simple function named loadBigQueryFromAvro. This function reads an Avro file that is uploaded to Cloud Storage and then creates and loads a table in BigQuery.
+
+In Cloud Shell, run the following command to create and open a file named index.js:
+
+```shell
+nano index.js
+```
+
+Copy the following code for the Cloud Function into the index.js file:
+
+```js
+/**
+* index.js Cloud Function - Avro on GCS to BQ
+*/
+const {Storage} = require('@google-cloud/storage');
+const {BigQuery} = require('@google-cloud/bigquery');
+
+const storage = new Storage();
+const bigquery = new BigQuery();
+
+exports.loadBigQueryFromAvro = async (event, context) => {
+    try {
+        // Check for valid event data and extract bucket name
+        if (!event || !event.bucket) {
+            throw new Error('Invalid event data. Missing bucket information.');
+        }
+
+        const bucketName = event.bucket;
+        const fileName = event.name;
+
+        // BigQuery configuration
+        const datasetId = 'loadavro';
+        const tableId = fileName.replace('.avro', ''); 
+
+        const options = {
+            sourceFormat: 'AVRO',
+            autodetect: true, 
+            createDisposition: 'CREATE_IF_NEEDED',
+            writeDisposition: 'WRITE_TRUNCATE',     
+        };
+
+        // Load job configuration
+        const loadJob = bigquery
+            .dataset(datasetId)
+            .table(tableId)
+            .load(storage.bucket(bucketName).file(fileName), options);
+
+        await loadJob;
+        console.log(`Job ${loadJob.id} completed. Created table ${tableId}.`);
+
+    } catch (error) {
+        console.error('Error loading data into BigQuery:', error);
+        throw error; 
+    }
+};
+
+```
+
+In nano press (Ctrl+x) , and then press (Y), and then press Enter to save the file.
+
 
 
