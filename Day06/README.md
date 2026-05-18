@@ -234,3 +234,17 @@ bq query \
 
 Note: The Cloud Run function will typically process very quickly but it is possible the query run against BigQuery may not return results. If that is the case for you please wait a moment and run the query again.
 
+## Task 7. View logs
+
+In this task, you retrieve all log entries that are associated with your service named loadBigQueryFromAvro.
+
+In Cloud Shell, run the following command to examine the logs for your Cloud Run function:
+    gcloud logging read "resource.labels.service_name=loadBigQueryFromAvro"
+Copied!
+Messages in the log appear similar to the following:
+
+![alt text](image-14.png)
+
+scrolled,
+
+![alt text](image-15.png)
