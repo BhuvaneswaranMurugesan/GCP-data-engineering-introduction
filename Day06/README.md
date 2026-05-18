@@ -216,3 +216,21 @@ Run the following command to move the Avro file to the staging Cloud Storage buc
 gcloud storage cp campaigns.avro gs://qwiklabs-gcp-01-5c90df109cf5
 ```
 
+![alt text](image-12.png)
+
+## Task 6. Confirm that the data was loaded into BigQuery
+
+In this task, you confirm that the data processed by the Cloud Run function has been successfully loaded into BigQuery by querying the loadavro.campaigns table using the bq command
+
+In Cloud Shell, run the following command to view the data in the new table in BigQuery, using the bq command:
+
+```shell
+bq query \
+ --use_legacy_sql=false \
+ 'SELECT * FROM `loadavro.campaigns`;'
+```
+
+![alt text](image-13.png)
+
+Note: The Cloud Run function will typically process very quickly but it is possible the query run against BigQuery may not return results. If that is the case for you please wait a moment and run the query again.
+
