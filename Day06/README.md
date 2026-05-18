@@ -157,3 +157,62 @@ bq mk -d  loadavro
 
 ![alt text](image-4.png)
 
+## Task 5. Deploy your function
+
+In this task, you deploy the new Cloud Run function and trigger it so that the data is loaded into BigQuery.
+
+In Cloud Shell, run the following command to install the two javascript libraries to read from Cloud Storage and store the output in BigQuery:
+
+```shell
+npm install @google-cloud/storage @google-cloud/bigquery
+```
+
+![alt text](image-5.png)
+
+Run the following command to deploy the function:
+
+```shell
+gcloud functions deploy loadBigQueryFromAvro \
+    --gen2 \
+    --runtime nodejs24 \
+    --source . \
+    --region $REGION \
+    --trigger-resource gs://$PROJECT_ID \
+    --trigger-event google.storage.object.finalize \
+    --memory=512Mi \
+    --timeout=540s \
+    --service-account=$PROJECT_NUMBER-compute@developer.gserviceaccount.com 
+```
+
+![alt text](image-6.png)
+
+![alt text](image-7.png)
+
+Note: If you see an error message relating to eventarc service agent propagation, wait a few minutes and try the command again.
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+Run the following command to confirm that the trigger was successfully created. The output will be similar to the following:
+
+```shell
+gcloud eventarc triggers list --location=$REGION
+```
+
+![alt text](image-10.png)
+
+Run the following command to download the Avro file that will be processed by the Cloud Run function for storage in BigQuery:
+
+```shell
+wget https://storage.googleapis.com/cloud-training/dataengineering/lab_assets/idegc/campaigns.avro
+```
+
+![alt text](image-11.png)
+
+Run the following command to move the Avro file to the staging Cloud Storage bucket you created earlier. This action will trigger the Cloud Run function:
+
+```shell
+gcloud storage cp campaigns.avro gs://qwiklabs-gcp-01-5c90df109cf5
+```
+
