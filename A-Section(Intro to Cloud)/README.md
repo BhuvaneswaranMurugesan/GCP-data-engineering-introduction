@@ -38,3 +38,43 @@ Nintendo did a digital Transformation.
 4.know their data,systems and users are secure
 5.Prioritize Sustanaibility, To minimize the environmental impact.
 
+# Google's Tranformation Cloud
+
+1.Data
+2.Open Infrastructure
+- Faciliates faster inovations
+- Reduce ock-in single cloud provider
+- Flexibility to build ,migrate and manage applications.
+
+### OpenStandard vs Open Source
+
+OpenStandard:
+- Software with particular specifications
+- Accessable and uasable by anyone
+- Guidelinnes for software functionality
+- eg:HTTP for requesting content in web, or XML for Storing Structured data
+
+OpenSource:
+- Source code is publicly available
+- free to use, modify and share
+- created through public collobarion
+
+so Google use Opensource , for customer portability as they expect,
+they use Kubernetes, tensorflow like services
+
+and to provide flexibility, they use Anthos (hybrid and multi cloud environments)
+Anthos,have tech like
+- kubernetes
+- Istio
+- Knative
+
+3.Collaboration
+Workspaces
+
+4.Trust
+secure,better visbility, remidiate threads
+
+5.Sustainable energy
+reduced Corbon emission
+with sustainable tech turn into emission free
+Clean Cloud
