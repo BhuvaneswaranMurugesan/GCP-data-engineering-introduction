@@ -30,3 +30,11 @@ Nintendo intention is invovation though games, so pushed everyboby to play the g
 
 Nintendo did a digital Transformation.
 
+# Challenges that lead to digital transformation
+
+1.be best at understanding the data, to make right desicion on their org
+2.need of technology infrastructure
+3.create best hybrid workspace
+4.know their data,systems and users are secure
+5.Prioritize Sustanaibility, To minimize the environmental impact.
+
