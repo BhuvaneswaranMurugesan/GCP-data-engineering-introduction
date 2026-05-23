@@ -78,3 +78,25 @@ secure,better visbility, remidiate threads
 reduced Corbon emission
 with sustainable tech turn into emission free
 Clean Cloud
+
+# Cloud Computing service models
+
+- Iaas (Infrastrcurure as service)
+- Paas (Platform as a service)
+- Saas (software as service)
+
+![alt text](image.png)
+
+real-time example:
+
+if I have my own car (on-premise)
+costly to buy, difficult to upgrade because of more cost and take time
+
+if I lease the car (Iaas)
+if I want to upgrade the car I can lease another car for upgradation
+
+if I take a taxi (Paas)
+just guiding the driver where to drop and pay for that ride
+
+if I take a bus (Saas)
+an shared space but not able customize much in droping location
