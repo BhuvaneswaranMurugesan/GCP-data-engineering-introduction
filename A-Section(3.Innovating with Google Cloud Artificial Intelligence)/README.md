@@ -19,3 +19,14 @@ Maya the person who solves and gain values for the air lines company, where she 
 4.Custom training
 
 ## BigQuery ML
+
+- model are trained directly in bigquery using sql
+- integrates with vertex AI
+- When BigQuery ML models are registered to the Vertex AI model registry, they can be deployed to endpoints for online prediction.
+
+## Pre-trained APIs
+
+- Vision API(images), NLP API(text), Cloud Translation API(one language to another)
+- Speech-to-text API (audio to text), Text-to-Speech (text into high quality voice audio)
+- Video Intelligence API (motiona and action in video)
+
