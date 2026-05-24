@@ -18,3 +18,4 @@ Maya the person who solves and gain values for the air lines company, where she 
 3.AutoML
 4.Custom training
 
+## BigQuery ML
