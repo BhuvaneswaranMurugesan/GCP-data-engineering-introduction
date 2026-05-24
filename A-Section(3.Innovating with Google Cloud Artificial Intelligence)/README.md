@@ -35,3 +35,10 @@ Maya the person who solves and gain values for the air lines company, where she 
 - AutoML and Vertex AI lets you build and train machine learning models from end to end by using graphical user interfaces.
 - Often referred to as GUIs without writing a line of code.
 
+## Custom model
+
+-Vertex AI is also the essential platform for creating custom end to end machine learning models.
+-This means not only are models trained with your own data, but the models are custom built as well.
+
+![alt text](image-1.png)
+
