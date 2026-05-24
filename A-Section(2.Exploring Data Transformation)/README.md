@@ -57,3 +57,28 @@ there are four primary storage:
 3.coldline storage - (once every 90 days)
 4.Archive Storage - (once a year)
 
+## Cloud SQL
+fully managed relational databases like,
+- mysql
+- PostgresSQL
+- SQL Server
+
+The Database migration(DMS) is easier , production database to cloudsql with minimal downtime.
+
+## Spanner
+- fully managed relational database with unlimited scale, string consistency
+- High Availability across globe(will replicate data on global or geo-redundancy)
+- Handles Replica, Sharding and transaction processing.
+
+## Bigquey
+- fully managed datawarehouse
+- provides Storage and Analytics
+
+## Firestore
+- Semi-structure db, flexible, Horizontal Scalable
+- No sql db
+- offline usage(connect from local) 
+
+## Bigtable
+- No sql big data service
+- Handles masice workloads
