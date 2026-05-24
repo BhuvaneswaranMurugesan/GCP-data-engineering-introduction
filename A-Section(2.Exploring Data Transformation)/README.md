@@ -39,3 +39,21 @@ use for buissness intelligent, hold both structred and unstructured data
 
 ![alt text](image-1.png)
 
+# data Storage
+
+1.cloud Storage
+2.Cloud Sql
+3.spanner
+4.Big Query
+5.Firestore
+6.Bigtable
+
+## cloud Storage
+
+there are four primary storage:
+
+1.standard storage - (fequent access or hot data)
+2.nearline storage - (per month, data backups)
+3.coldline storage - (once every 90 days)
+4.Archive Storage - (once a year)
+
