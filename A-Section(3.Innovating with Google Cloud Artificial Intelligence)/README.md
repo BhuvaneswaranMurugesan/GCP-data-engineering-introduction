@@ -37,8 +37,37 @@ Maya the person who solves and gain values for the air lines company, where she 
 
 ## Custom model
 
--Vertex AI is also the essential platform for creating custom end to end machine learning models.
--This means not only are models trained with your own data, but the models are custom built as well.
+- Vertex AI is also the essential platform for creating custom end to end machine learning models.
+- means not only are models trained with your own data, but the models are custom built as well.
 
 ![alt text](image-1.png)
 
+## Tensorflow
+
+- TensorFlow has a flexible ecosystem of tools, libraries, and community resources that enable researchers to innovate in ML and developers to build and deploy ML powered applications.
+
+## AI Solutions
+
+
+Beyond the customizable options, Google Cloud has also created a set of full AI solutions aimed to solve specific business needs.
+
+![alt text](image-2.png)
+
+### Contact Center AI
+
+- Contact Center AI provides models for speaking with customers and assisting human agents, increasing operational efficiency, and personalizing customer care to transform your contact center.
+
+### Document AI
+
+- Document AI unlocks insights by extracting and classifying information from unstructured documents such as invoices, receipts, forms, letters, and reports.
+- The extracted data can then be saved in a database or exported to another application for further analysis.
+
+### Discovery AI for Retail
+
+- Discovery AI for retail uses machine learning to select the optimal ordering of products on a retailer's e-commerce site when shoppers choose a category like winter jackets or kitchen ware.
+- Over time, the AI learns the ideal product ordering for each page on the site by using
+- historical data, optimizing how and what products are shown for accuracy, relevance, and likelihood of making a sale.
+
+### Cloud Talent Solution
+
+- Cloud Talent Solution uses AI with job search and talent acquisition capabilities, matches candidates to ideal jobs faster, and allows employers to attract and convert higher quality candidates.
