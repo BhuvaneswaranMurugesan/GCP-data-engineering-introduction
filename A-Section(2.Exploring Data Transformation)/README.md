@@ -82,3 +82,13 @@ The Database migration(DMS) is easier , production database to cloudsql with min
 ## Bigtable
 - No sql big data service
 - Handles masice workloads
+
+# Streaming Analytics
+
+Google Cloud offers two main streaming analytics products to ingest, process, and analyze event streams in real time, which makes data more useful and accessible from the instant it’s generated.
+
+- Pub/Sub (Hundreds of million of data per second)
+- Dataflow (Unifies Streaming and batch data analysis and builds Cohesive data)
+
+Apache Beam:
+It’s an open source, unified programming model to define and execute data processing pipelines, including ETL, batch, and stream processing.
