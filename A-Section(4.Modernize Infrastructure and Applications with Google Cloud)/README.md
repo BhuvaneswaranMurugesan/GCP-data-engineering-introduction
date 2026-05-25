@@ -74,7 +74,7 @@ Kubernetes, originally developed by Google, is an open-source platform for manag
 In summary, GKE is ideal when lots of control is required over a Kubernetes Environment and there are complex applications to run.
 Alternatively, Cloud Run is ideal for when a simple, fully managed serverless platform that can scale up and down quickly is required.
 
-## Rehosting legacy application from on-prem to cloud provider
+# Rehosting legacy application from on-prem to cloud provider
 
 ![alt text](image.png)
 
@@ -84,3 +84,12 @@ With Google Cloud VMware Engine, organizations can maintain their existing VMwar
 - benefiting from the scalability, security, reliability of Google Cloud.
 
 - And for organizations with legacy applications on Oracle, Google Cloud offers Bare Metal Solution.
+
+# Apigee API management
+
+- Apigee is a popular choice for organizations that need to manage their API's because it offers many benefits.
+- It helps organizations secure their API's by providing features such as authentication, authorization and data encryption.
+- It tracks and analyzes API usage with real time analytics and historical reporting.
+- It helps with developing and deploying API's through a visual API editor and a test sandbox.
+- It offers API versioning, API documentation, and even API throttling, which is the process of limiting the number of API requests a user can make in a certain period.
+
