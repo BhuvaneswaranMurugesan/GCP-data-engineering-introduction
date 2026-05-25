@@ -71,3 +71,6 @@ Kubernetes, originally developed by Google, is an open-source platform for manag
 
 - GKE also provides many features that can help monitor applications, manage resources, and troubleshoot problems.
 
+In summary, GKE is ideal when lots of control is required over a Kubernetes Environment and there are complex applications to run.
+Alternatively, Cloud Run is ideal for when a simple, fully managed serverless platform that can scale up and down quickly is required.
+
