@@ -30,3 +30,19 @@ reimagineD:
 Cloud modernization can inspire and incentivize organizations to reimagine.
 In Cloud computing, reimagine refers to the process of rethinking how an organization uses technology to achieve its business goals.
 
+# VM
+
+Virtualization is a form of resource optimization that lets multiple systems run on the same hardware.
+These systems are called virtual machines or VMs.
+
+Preemptible VMs:
+less features
+Preemptible VMs can only run for up to 24 hours at a time
+
+Spot VMs:
+more features
+Spot VMs don't have a maximum runtime.
+
+same pricing for both.
+
+
