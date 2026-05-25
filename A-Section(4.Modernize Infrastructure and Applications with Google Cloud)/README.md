@@ -55,3 +55,19 @@ same pricing for both.
 - The key difference between virtual machines and containers is that virtual machines virtualize an entire machine down to the hardware layers.
 - Whereas containers only virtualize software layers above the operating system level.
 
+# managing Containers
+
+Kubernetes, originally developed by Google, is an open-source platform for managing containerized workloads and services.
+
+- Google Kubernetes Engine or GKE is a Google hosted, managed Kubernetes service in the Cloud.
+
+- The GKE environment consists of multiple machines, specifically compute engine instances grouped to form a cluster.
+
+- GKE clusters can be customized, and they support different machine types, numbers of nodes, and network settings.
+
+- GKE makes it easy to deploy applications by providing an API and a Web based console.
+
+- Applications can be deployed in minutes and can be scaled up or down as needed.
+
+- GKE also provides many features that can help monitor applications, manage resources, and troubleshoot problems.
+
