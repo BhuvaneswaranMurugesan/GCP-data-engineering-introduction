@@ -45,4 +45,13 @@ Spot VMs don't have a maximum runtime.
 
 same pricing for both.
 
+# Containers
+
+- They provide isolated environments to run software services and optimize resources from one piece of hardware.
+- Containers can run virtually and anywhere, which makes development and deployment easy.
+
+## VMs vs Containers
+
+- The key difference between virtual machines and containers is that virtual machines virtualize an entire machine down to the hardware layers.
+- Whereas containers only virtualize software layers above the operating system level.
 
