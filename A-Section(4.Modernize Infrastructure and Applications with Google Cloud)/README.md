@@ -74,3 +74,13 @@ Kubernetes, originally developed by Google, is an open-source platform for manag
 In summary, GKE is ideal when lots of control is required over a Kubernetes Environment and there are complex applications to run.
 Alternatively, Cloud Run is ideal for when a simple, fully managed serverless platform that can scale up and down quickly is required.
 
+## Rehosting legacy application from on-prem to cloud provider
+
+![alt text](image.png)
+
+The first is Google Cloud VMware Engine, which  helps migrate existing VMware workloads to the cloud without having to rearchitect  the applications or retool operations.
+With Google Cloud VMware Engine, organizations can maintain their existing VMware environments and operational processes while ,
+
+- benefiting from the scalability, security, reliability of Google Cloud.
+
+- And for organizations with legacy applications on Oracle, Google Cloud offers Bare Metal Solution.
