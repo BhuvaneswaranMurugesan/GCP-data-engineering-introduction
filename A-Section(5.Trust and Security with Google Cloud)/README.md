@@ -33,5 +33,15 @@ Safeguarding the encryption key is crucial, because it holds the secret algorith
 
 Another way to think about encryption and decryption is writing a message in a secret language that only you and the person you want to send it to can understand.
 
+# Cloud security components
+
+Confidentiality, Integrity, and Availability. (CIA)
+
+These three principles form the foundation of the “CIA Triad”, a widely used model for developing effective security systems.
+The CIA triad emphasizes the importance of protecting sensitive information, ensuring data accuracy and trustworthiness, and maintaining uninterrupted access to resources and services.
+
+# Cloud security versus traditional on-premises security
+
+
 
 
