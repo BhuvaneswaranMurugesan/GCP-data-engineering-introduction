@@ -77,7 +77,7 @@ Google Cloud provides service to protect are,
 External web applications and services are often targeted by cyber threats, including DDoS attacks.
 DDoS, which stands for distributed denial-of-service, is a cyber attack that uses multiple compromised computer systems to flood.
 
-Security Operations: (Sec-Ops)
+# Security Operations: (Sec-Ops)
 
 - Google Cloud's Security Command Center (SCC) provides a centralized view of your security posture.
 - Google Cloud offers Cloud Logging, a service to collect and analyze security logs from your entire Google Cloud environment.
