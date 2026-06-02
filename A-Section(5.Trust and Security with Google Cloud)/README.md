@@ -40,4 +40,52 @@ Confidentiality, Integrity, and Availability. (CIA)
 These three principles form the foundation of the “CIA Triad”, a widely used model for developing effective security systems.
 The CIA triad emphasizes the importance of protecting sensitive information, ensuring data accuracy and trustworthiness, and maintaining uninterrupted access to resources and services.
 
+# Secure Storage
 
+encryption protects your data in different states.
+
+When data is at rest, it's stored on physical devices like computers or servers.
+By encrypting data at rest, even if someone gains physical access to the device, they won't be able to decipher the data without the encryption key.
+
+And if you prefer to manage your encryption keys yourself, you can use our Cloud Key Management Service (Cloud KMS) for added control.
+
+Uses AES (Advanced Encription Standards).
+
+# 3A's
+
+1.Authentication
+2.Authorization
+3.Auditing
+
+# Network Security
+
+- With Google Cloud's BeyondCorp Enterprise, you can implement a zero trust security model.
+
+- Google Cloud provides private access methods via Cloud VPN and Cloud-interconnect
+which let you establish secure connections between your on-premises networks and Google Cloud resources.
+
+- Protect your perimeter with Google Cloud's powerful tools.
+Google Cloud offers various methods to help secure your perimeter, including firewalls and Virtual Private Cloud.
+
+Google Cloud provides service to protect are,
+
+- VPC
+- firewall
+- Cloud VPN
+- Cloud-interconnect
+
+External web applications and services are often targeted by cyber threats, including DDoS attacks.
+DDoS, which stands for distributed denial-of-service, is a cyber attack that uses multiple compromised computer systems to flood.
+
+# Security Operations: (Sec-Ops)
+
+- Google Cloud's Security Command Center (SCC) provides a centralized view of your security posture.
+- Google Cloud offers Cloud Logging, a service to collect and analyze security logs from your entire Google Cloud environment.
+
+# Industry and Regional compliance
+
+- Compliance Reports manager
+
+Within the Compliance Reports Manager, you'll discover our latest ISO/IEC certificates, SOC reports, and self-assessments.
+
+These resources provide evidence of our adherence to rigorous compliance standards and help streamline your own reporting and compliance efforts.
